@@ -4,7 +4,7 @@
     <BuildPath Condition="'$(BuildPath)' == ''">$(MSBuildThisFileDirectory)</BuildPath>
     <MSBuildRazorCompile Condition="'$(MSBuildRazorCompile)' == ''">true</MSBuildRazorCompile>
     <MsBuildRazorCompilerILRepack Condition="'$(MsBuildRazorCompilerILRepack)' == ''">true</MsBuildRazorCompilerILRepack>
-    <MSBuildRazorCompilerExe Condition="'$(MSBuildRazorCompilerExe)' == ''">dotnet "$(BuildPath)netcoreapp3.1\MSBuildRazorCompiler.dll"</MSBuildRazorCompilerExe>
+    <MSBuildRazorCompilerExe Condition="'$(MSBuildRazorCompilerExe)' == ''">dotnet "$(BuildPath)net5.0\MSBuildRazorCompiler.dll"</MSBuildRazorCompilerExe>
     <MsBuildRazorCompilerPath Condition="'$(MsBuildRazorCompilerPath)' == ''">$(MSBuildProjectDirectory)</MsBuildRazorCompilerPath>
     <MsBuildRazorCompilerRootNamespace Condition="'$(MsBuildRazorCompilerRootNamespace)' == ''">$(RootNamespace)</MsBuildRazorCompilerRootNamespace>
     <MsBuildRazorCompilerClassModifier Condition="'$(MsBuildRazorCompilerClassModifier)' == ''">internal</MsBuildRazorCompilerClassModifier>
