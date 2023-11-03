@@ -2,17 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
     <RazorLangVersion>6.0</RazorLangVersion>
     <RazorCompileOnBuild>false</RazorCompileOnBuild>
     <RazorCompileOnPublish>false</RazorCompileOnPublish>
     <BuildPath>$(MSBuildThisFileDirectory)..\MSBuildRazorCompiler\bin\$(Configuration)\</BuildPath>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.18.2" />
-    <PackageReference Include="razorlight" Version="2.0.0-rc.4" />
+    <PackageReference Include="razorlight" Version="2.3.1" />
   </ItemGroup>
 
   <ItemGroup>
