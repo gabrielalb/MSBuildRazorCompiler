@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MSBuildRazorCompiler.Lib</id>
-    <version>0.3.1.4</version>
+    <version>0.3.1.6</version>
     <authors>Robert Moore, Matt Davies, MRCollective, Gabriel Alb</authors>
     <description>Fork of MSBuildRazorCompiler. Updated to support .net 8</description>
     <repository type="git" url="https://github.com/gabrielalb/MSBuildRazorCompiler" />
