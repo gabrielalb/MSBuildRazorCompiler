@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MSBuildRazorCompiler.Lib</id>
-    <version>0.3.1.15</version>
+    <version>0.3.1.18</version>
     <authors>Robert Moore, Matt Davies, MRCollective, Gabriel Alb</authors>
-    <description>Fork of MSBuildRazorCompiler. Updated to support .net 8</description>
+    <description>Fork of MSBuildRazorCompiler. Updated to support .net 10</description>
     <repository type="git" url="https://github.com/gabrielalb/MSBuildRazorCompiler" />
     <dependencies>
       <group targetFramework="net10.0">
-        <dependency id="RazorLight" version="2.3.1" />
-        <dependency id="ILRepack.Lib.MSBuild.Task" version="2.0.18.2" />
+        <dependency id="jcamp.RazorLight" version="3.0.0" />
+        <dependency id="ILRepack.Lib.MSBuild.Task" version="2.0.44.1" />
         <dependency id="Microsoft.AspNetCore.Mvc.Razor.Extensions" version="6.0.36" />
         <dependency id="Microsoft.AspNetCore.Razor.Language" version="6.0.36" />
       </group>
@@ -17,7 +17,7 @@
   </metadata>
   <files>
     <file src="..\RazorRenderer\bin\Release\net10.0\*.*" target="lib/net10.0/" />
-    <file src="MSBuildRazorCompiler.targets" target="build/net9.0/MSBuildRazorCompiler.targets" />
+    <file src="MSBuildRazorCompiler.targets" target="build/net10.0/MSBuildRazorCompiler.targets" />
 
     <file src="CompileRazorFiles.targets" target="tools/" />
     <file src="..\MSBuildRazorCompiler\bin\Release\net10.0\**\*" target="tools/net10.0/" />
